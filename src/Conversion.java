@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class Conversion {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String stop = "stop";
         int number;
         String toBinary;
         System.out.println("Введите число от \"0\" до \"10000\"");
