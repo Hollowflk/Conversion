@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Conversion {
     public static void main(String[] args) {
         int number = 0;
-        String toBinary;
+        String binaryNumber;
         System.out.println("Введите число от \"0\" до \"10000\"." +
                             " Для выхода введите \"stop\"");
 
@@ -17,8 +17,8 @@ public class Conversion {
                     }
                     System.out.println("Число: " + number + " в 16-ричной системе равно: " + Integer.toHexString(number));
                     System.out.println("Число: " + number + " в 2-ричной системе равно: " + Integer.toBinaryString(number));
-                    toBinary = Integer.toBinaryString(number);
-                    System.out.println("Число: " + toBinary + " в 10-ричной системе равно: " + Integer.parseInt(toBinary, 2));
+                    binaryNumber = Integer.toBinaryString(number);
+                    System.out.println("Число: " + binaryNumber + " в 10-ричной системе равно: " + Integer.parseInt(binaryNumber, 2));
                 } else if ("stop".equalsIgnoreCase(scanner.nextLine())){
                     System.out.println("Выход из консоли.");
                     break;
